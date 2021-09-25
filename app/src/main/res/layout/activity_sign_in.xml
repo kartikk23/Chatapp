@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayBackground"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            app:srcCompat="@drawable/wl1" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#E80C0C0C"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColorHint="#66BB6A" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#E80B0B0B"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:textColorHint="#66BB6A" />
+
+        <TextView
+            android:id="@+id/clickSignUp"
+            android:layout_width="181dp"
+            android:layout_height="31dp"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:text="Create new account"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="359dp"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="226dp"
+        android:layout_height="39dp"
+        android:gravity="center_horizontal"
+        android:text="Sign Up with phone"
+        android:textSize="16sp" />
+
+</LinearLayout>
